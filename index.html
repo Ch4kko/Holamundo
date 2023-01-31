@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Curriculum vitae</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="https://www.cvwizard.es/favicon-512.png">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/48e32e751d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+	<div class="grid-container">
+		<div class="grid-item grid-aside">
+			<div class="presentación">
+				<div class="imagen">
+				<img src="https://s36496.pcdn.co/wp-content/uploads/2022/11/cv-plantilla-01.jpg">
+				</div>
+				<div class="nombre">
+						<h1>Cecil Foster</h1>
+						<h2>Ingeniera civil</h2>
+				</div>	
+				<div class="perfil">
+					<h2 id="subtitulo">PERFIL</h2>
+					<p>Tengo 35 años. Soy Ing. civil especializada en gerencia de proyectos con habilidades para el manejo de softwares como SAP y AutoCAD. Tambien cuento con capacidad de analisis y mejora de procesos de grandes proyectos.</p>	
+				</div>
+				<div class="contacto">
+					<h2 id="subtitulo">CONTACTO</h2>
+						<ul>
+							<li>
+								<span class="icon"><i class="fa-solid fa-phone"></i></span>
+								<span class="text">+54 12 4567-1234</span>
+							</li>
+							<li>
+								<span class="icon"><i class="fa-solid fa-envelope"></i></span>
+								<span class="text">CecilFoster@gmail.com</span>
+							</li>
+							<li>
+								<span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+								<span class="text">Lafayette 1044, Villa Soldati</span>
+							</li>
+							<li>
+								<span class="icon"><i class="fa-solid fa-briefcase"></i></span>
+								<span class="text">www.celiliafoster.com</span>
+							</li>
+						</ul>	
+				</div>
+				<div class="habilidades">
+					<h2 id="subtitulo">HABILIDADES</h2>
+						<ul>
+							<li>Trabajo en equipo</li>
+							<li>Comunicación clara</li>
+							<li>Resolución de conflictos</li>
+							<li>Manejo de paquete Office 365</li>
+							<li>Liderazgo</li>
+						</ul>
+				</div>
+				<div class="idiomas">		
+					<h2 id="subtitulo">IDIOMAS</h2>	
+						<ul>
+							<li id="marker">Ingles (B1)</li>
+							<li id="marker">Francés (B1)</li>
+						</ul>
+						<br>
+				</div>		
+			</div>	
+		</div>
+
+		<div class="grid-item grid-main">
+			<div class="laboral">
+				<div class="h2main">EXPERIENCIA LABORAL</div>
+					<div class="empresa">
+						<div class="experiencia">
+							<h2 class="exp">CONSTRUCTORA LAS ASIAS | INGENIERA DE OBRAS</h2>
+								<h3 class="año">Septiembre 2019-Diciembre 2022</h3>
+									<h4 class="ubic">Sevilla, España.</h4>
+										<div>
+											<ul>
+												<li id="marker">Calculo de coste de material(es) necesario(s) para cada obra.</li>
+												<li id="marker">Mantener actualizadas, en excel, el avance diaria de cada obra.</li>
+											</ul>
+										</div>
+							<h2 class="exp">GRUPO EULEN | INGENIERA TECNICA CIVIL</h2>
+								<h3 class="año">Enero 2015-Julio 2019</h3>
+									<h4 class="ubic">Buenos Aires, Argentina.</h4>
+										
+											<ul>
+												<li id="marker">Apoyo al equipo de ingenieria en la elaboración de proyectos y ofertas.</li>
+												<li id="marker">Control y seguimiento de las especificaciones tecnicas.</li>
+												<li id="marker">Estudio, planificación y seguimiento de obras.</li>
+											</ul>
+
+						</div>					
+
+							<div class="h2main">EDUCACIÓN</div>
+								<h2 class="exp">UNIVERSIDAD CATOLICA ARGENTINA | 2009-2011</h2>
+									<p>Especializacion en Vias Terrestres.</p>
+								<h2 class="exp">UNIVERSIDAD ALBERTO CARDOZO | 2005-2009</h2>
+									<p>Profesional en Ingenieria Civil.</p>	
+
+							<div class="h2main">CURSOS FORMATIVOS</div>
+								<h2 class="exp">ACADEMY PROFESIONAL TICMAS | 2012</h2>
+									<p>Curso de Front end.</p>
+								<h2 class="exp">BA CAPACITA | 2011</h2>
+									<p>Taller de modernización civil-urbana.</p>
+								<br>
+								<br>	
+
+							<div class="form-container">
+								<form class="form">
+
+									<div class="form-section">
+										<input type="text" class="form-input" placeholder="Nombre" id="nombre">
+									</div>
+									<div class="form-section">
+										<input type="email" class="form-input" placeholder="Email" id="email">
+									</div>
+									<div class="form-section">
+										<textarea class="form-input" placeholder="Asunto" id="textarea"></textarea>
+									</div>
+									<div>
+										<input type="button" value="Enviar" class="submit" onclick ='return enviarFormulario();'> <i class="fa-solid fa-paper-plane"></i>
+									
+									</div>
+
+								</form>
+								<div id="error"></div>
+								<div class="img-form">
+									<img src="https://cdn.pixabay.com/photo/2016/04/16/10/32/icon-1332772_1280.png">
+									
+								</div>
+
+							</div>
+					</div>
+			
+
+
+			</div>		
+		</div>		
+		
+		
+
+
+	</div>
+
+	<script src="function.js"></script>
+</body>
+
+
+</html>
